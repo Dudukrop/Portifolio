@@ -14,7 +14,7 @@ export default function Sobre() {
             <div className="w-full h-screen flex justify-center items-center relative bottom-2">
                 <div className="w-4/5 h-96 flex justify-between">
                     <div className="overflow-hidden rounded-3xl w-96">
-                        <img src='Profile2.jpg' className="w-96 h-96 object-cover" />
+                        <img src='Profile.jpg' className="w-96 h-96 object-cover" />
                     </div>
                     <div className="w-[60%] ml-10 h-96 flex flex-col justify-between">
                         <div className="flex justify-between font-bold text-gray-500 text-[18px]">
@@ -32,7 +32,7 @@ export default function Sobre() {
                             </CardSobre>
                         </div>
                         <span className="text-gray-500 font-bold">
-                            Olá! Sou o Eduardo, um <span className="font-bold text-black">desenvolvedor fullstack</span> desde 2023. Trabalho com <span className="font-bold text-black">C#, Next.js</span> e bancos de dados como <span className="font-bold text-black">MySQL e SQLServer</span>. Tenho experiência em programação em nuvem utilizando <span className="font-bold text-black">Azure</span> e aplico a <span className="font-bold text-black" s>metodologia Scrum</span> no desenvolvimento de novas features para o site da empresa na qual trabalho. Estou sempre buscando novos desafios e oportunidades de crescimento. Vamos construir algo incrível juntos!
+                            Olá! Sou o Eduardo, um <span className="font-bold text-black">Desenvolvedor Web Fullstack.</span> Trabalho com <span className="font-bold text-black">C#, Next.js</span> e bancos de dados como <span className="font-bold text-black">MySQL e SQLServer</span>. Tenho experiência em programação em nuvem utilizando <span className="font-bold text-black">Azure</span> e aplico a <span className="font-bold text-black" s>metodologia Scrum</span> no desenvolvimento de novas features para o site da empresa na qual trabalho. Estou sempre buscando novos desafios e oportunidades de crescimento. Vamos construir algo incrível juntos!
                         </span>
                     </div>
                 </div>

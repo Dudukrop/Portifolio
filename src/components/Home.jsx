@@ -17,7 +17,7 @@ export default function Home() {
             </div>
             <div className="w-2/4 h-96 relative flex items-center justify-between" style={{ minWidth: '900px' }}>
                 <div className="overflow-hidden rounded-full w-96 h-96">
-                    <img src='Profile.jpg' className="relative bottom-10" />
+                    <img src='Profile2.jpg' className="" />
                 </div>
                 <div>
                     <div className="text-gray-500 flex flex-col items-center text-3xl font-bold">
