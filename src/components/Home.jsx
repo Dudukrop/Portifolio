@@ -1,45 +1,41 @@
-import { Canvas } from "@react-three/fiber";
-import RoundedButton from "./buttons/RoundedButton";
-import H1 from "./headers/H1";
-import H2 from "./headers/H2";
-import Link from "./links/Link";
-import { Suspense } from "react";
-import Room from '../../public/Room'
-import { OrbitControls } from "@react-three/drei";
+import Link from "./link/Link";
+import Span from "./span/Span";
+import Title from "./title/Title";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Home() {
     return (
-        <div className="h-screen flex justify-center flex-wrap">
-            <div className="w-screen h-20 flex items-end justify-around">
-                <H2>Eduardo Kropniczki</H2>
-                <div className="flex justify-around ">
-                    <Link text="Sobre" />
-                    <Link text="Experiência" />
-                    <Link text="Projetos" />
-                    <Link text="Contato" />
-                </div>
-            </div>
-            <div className="w-2/4 h-96 relative flex items-center justify-between" style={{ minWidth: '900px' }}>
-                <div className="w-96 h-96">
-                    {/* <img src='Profile2.jpg' className="" /> */}
-                    <Canvas className="h-[100vh] cursor-pointer">
-                        <ambientLight />
-                        <OrbitControls />
-                        <Suspense fallback={null}>
-                            <Room />
-                        </Suspense>
-                    </Canvas>
-                </div>
-                <div>
-                    <div className="text-gray-500 flex flex-col items-center text-3xl font-bold">
-                        <span className="text-xl relative top-2">Olá, eu sou </span> <br />
-                        <H1>Eduardo Kropniczki</H1> <br />
-                        Desenvolvedor FullStack
+        <div className="scrollAlign w-full flex items-center h-screen">
+            <div className="flex items-center m-auto w-[98%] justify-center">
+                <div className="flex flex-col justify-around w-[30%] mr-40 h-[400px]">
+                    <div className="w-[45vw] h-[25vh]">
+                        <Title />
                     </div>
-                    <div className="flex justify-evenly mt-7 w-3/4 mx-auto">
-                        <RoundedButton>Baixar CV</RoundedButton>
-                        <RoundedButton textColor='text-white' bg='bg-gray-900'>Contato</RoundedButton>
+                    <div className="w-[38vw]">
+                        <Span>
+                            Construindo interfaces com designs inteligentes,
+                            desenvolvendo APIs para lógicas de negócio,
+                            tratando dados na nuvem
+                            e desenvolvendo experiências unicas em sites.
+                        </Span>
                     </div>
+                    <div className="flex justify-between w-14">
+                        <a target="blank" href="https://www.linkedin.com/in/eduardo-kropniczki-67295a267/">
+                            <LinkedInIcon />
+                        </a>
+                        <a target="blank" href="https://github.com/Dudukrop">
+                            <GitHubIcon />
+                        </a>
+                    </div>
+                    <div>
+                        <Link>
+                            Sobre mim
+                        </Link>
+                    </div>
+                </div>
+                <div className="w-[600px] z-50">
+                    <img src="dektup.svg" className="w-[50vw]" />
                 </div>
             </div>
         </div>
