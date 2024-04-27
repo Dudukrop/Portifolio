@@ -4,12 +4,12 @@
 
 
 @media (min-width: 768px) {
-  html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-  }
 }
 
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
 body::-webkit-scrollbar{
 }
 
