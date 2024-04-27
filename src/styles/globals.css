@@ -7,19 +7,24 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar{
+}
+
 body {
   margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background: radial-gradient(ellipse at bottom, #141416 0%, #141416 100%);
-    height: fit-content;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  background: radial-gradient(ellipse at bottom, #141416 0%, #141416 100%);
+  height: fit-content;
+  transition: 2s ease-in-out;
 }
 
 .scrollAlign {
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   perspective: 500px;
+  scroll-snap-stop: always;
 }
 
 .animLink span {
