@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+
+@media (min-width: 768px) {
+  html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
 }
 
 body::-webkit-scrollbar{

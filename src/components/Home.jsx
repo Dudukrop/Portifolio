@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className="scrollAlign w-full flex items-center h-screen">
             <div className="flex flex-col-reverse md:flex-row items-center 
-            m-auto relative top-0 md:top-8 w-[92%] md:w-[98%] justify-center">
+            m-auto relative bottom-[4vh] md:top-8 w-[92%] md:w-[98%] justify-center">
                 <div className="flex flex-col items-center md:items-start justify-around w-full 
                 md:w-[30%] md:mr-40 h-[300px] md:h-[400px]">
                     <div className="md:w-[45vw] md:h-[25vh]">
