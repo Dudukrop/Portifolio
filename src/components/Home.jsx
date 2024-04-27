@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Home() {
     return (
-        <div className="scrollAlign w-full flex items-center h-screen">
+        <div id="Home" className="scrollAlign w-full flex items-center h-screen">
             <div className="flex flex-col-reverse lg:flex-row items-center 
             m-auto relative bottom-[4vh] lg:top-8 w-[92%] lg:w-[98%] justify-center">
                 <div className="flex flex-col items-center lg:items-start justify-around w-full 
@@ -31,7 +31,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="w-full">
-                        <Link>
+                        <Link href="#about">
                             Sobre mim
                         </Link>
                     </div>

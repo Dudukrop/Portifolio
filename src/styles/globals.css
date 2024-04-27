@@ -20,7 +20,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: white;
   background: radial-gradient(ellipse at bottom, #141416 0%, #141416 100%);
-  height: fit-content;
+  height: 100vh;
   transition: 2s ease-in-out;
 }
 
@@ -221,7 +221,7 @@ body {
 #stars::after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 500px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -465,7 +465,7 @@ body {
 #stars2:after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 500px;
   width: 2px;
   height: 2px;
   background: transparent; 
@@ -558,7 +558,7 @@ body {
 #stars3::after {
   content: '';
   position: absolute;
-  top: 2000px;
+  top: 500px;
   width: 3px;
   height: 3px;
   background: transparent; 
