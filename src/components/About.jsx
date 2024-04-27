@@ -22,7 +22,7 @@ export default function About() {
 					</div>
 					<div>
 						<Span>
-							Solução de problemas, pessoa bem organizada, funcionário leal com grande atenção aos detalhes. Fã de academia, atividades ao ar livre, videogames e, é claro, codificação.
+							Resolvedor de problemas, organizado, funcionário leal com grande atenção aos detalhes. Fã de academia, atividades ao ar livre, videogames e, é claro, codificação.
 						</Span>
 					</div>
 					<div>

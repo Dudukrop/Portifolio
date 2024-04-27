@@ -30,6 +30,12 @@ body {
   scroll-snap-stop: always;
 }
 
+.scrollAlign2 {
+  scroll-snap-align: center;
+  perspective: 500px;
+  scroll-snap-stop: always;
+}
+
 .animLink span {
   display: inline-block;
 }
