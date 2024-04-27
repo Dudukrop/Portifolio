@@ -5,7 +5,7 @@ export default function About() {
 		<div id="about" className="scrollAlign w-full flex items-center h-screen">
 			<div className="flex flex-col lg:flex-row items-center 
             m-auto relative bottom-[4vh] lg:top-8 w-[92%] lg:w-[98%] justify-center">
-				<div className="mt-10 lg:mt-0 flex flex-col items-center lg:items-center justify-between w-full 
+				<div className="mt-20 lg:mt-0 flex flex-col items-center lg:items-center justify-between w-full 
                 lg:w-[350px] lg:h-[350px] lg:mr-10 h-[300px] rounded-3xl overflow-hidden">
 					<img src="Perfil.jpg" className="w-[350px]" />
 				</div>
