@@ -1,6 +1,6 @@
 export default function Span(props) {
     return (
-        <span className="md:text-lg">
+        <span className="lg:text-lg">
             {props.children}
         </span>
     )
