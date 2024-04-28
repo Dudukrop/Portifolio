@@ -11,7 +11,7 @@ export default function Home() {
             m-auto relative bottom-[4vh] md:top-8 w-[92%] md:w-[98%] justify-center">
                 <div className="flex flex-col items-center md:items-start justify-around w-full 
                 md:w-[30%] md:mr-40 h-[300px] md:h-[400px]">
-                    <div className="md:w-[45vw] cursor-default h-[120px] md:h-[25vh]">
+                    <div className="md:w-[45vw] mb-3 cursor-default h-[120px] md:h-[25vh]">
                         <Title />
                     </div>
                     <div className="w-full md:w-[38vw]">
@@ -22,7 +22,7 @@ export default function Home() {
                             e desenvolvendo experiências únicas em sites.
                         </Span>
                     </div>
-                    <div className="flex md:justify-between w-full md:w-14">
+                    <div className="flex my-4 md:my-0 md:justify-between w-full md:w-14">
                         <a className="mr-2" target="blank" href="https://www.linkedin.com/in/eduardo-kropniczki-67295a267/">
                             <LinkedInIcon />
                         </a>

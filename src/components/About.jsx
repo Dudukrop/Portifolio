@@ -19,7 +19,7 @@ export default function About() {
 						</Title>
 					</div>
 					<div>
-						<span className="text-2xl text-[#9c27b0] ">
+						<span className="md:text-2xl text-2xl text-[#9c27b0] ">
 							Dev Full Stack / .Net / C# / React / Azure
 						</span>
 					</div>
