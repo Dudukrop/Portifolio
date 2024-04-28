@@ -6,7 +6,6 @@ const rotate = {
     animate: { rotate: 90 }
 }
 
-
 export default function Link(props) {
     return (
         <motion.a
@@ -17,7 +16,6 @@ export default function Link(props) {
             {props.children}
             <motion.span
                 variants={rotate}
-                // whileHover={{ rotate: 90 }}
                 transition={{ duration: 0.5, type: "spring", stiffness: 500 }}
                 className='text-sm ml-2 relative bottom-[1px]'>
                 <ArrowIcon fontSize='smaller' />

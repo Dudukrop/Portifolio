@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+      <title>Dudukrop</title>
       <Head />
       <body>
         <Main />

@@ -1,17 +1,25 @@
 import Span from "./span/Span";
+import Title from "./title/Title";
 
 export default function About() {
 	return (
 		<div id="about" className="scrollAlign w-full flex items-center h-screen">
-			<div className="flex flex-col lg:flex-row items-center 
-            m-auto relative bottom-[4vh] lg:top-8 w-[92%] lg:w-[98%] justify-center">
-				<div className="mt-20 lg:mt-0 flex flex-col items-center lg:items-center justify-between w-full 
-                lg:w-[350px] lg:h-[350px] lg:mr-10 h-[300px] rounded-3xl overflow-hidden">
-					<img src="Perfil.jpg" className="w-[350px]" />
+			<div className="flex flex-col md:flex-row items-center 
+            m-auto relative bottom-[2vh] md:top-8 w-[92%] md:w-[98%] justify-center">
+				<div className="mt-20 md:mt-0 flex flex-col items-center md:items-center justify-between w-[300px] md:w-[400px] rounded-full md:mr-10 overflow-hidden">
+					<img src="Perfil.jpg" className="w-[400px]" />
 				</div>
-				<div className="h-[350px] lg:h-[300px] mt-10 lg:mt-0 flex flex-col justify-around lg:w-[600px] w-[90vw] z-50">
+				<div className="h-[450px] relative bottom-5 md:bottom-2 md:h-[420px] mt-10 md:mt-0 flex flex-col justify-between md:w-[600px] w-[90vw] z-50">
+					<div className="h-[120px] md:h-[27vh] md:w-[38vw]">
+						<Title animation="bounce">
+							Olá, Eu Sou
+						</Title>
+						<Title animation="bounce">
+							Eduardo Kropniczki
+						</Title>
+					</div>
 					<div>
-						<span className="text-2xl text-gray-300">
+						<span className="text-2xl text-[#9c27b0] ">
 							Dev Full Stack / .Net / C# / React / Azure
 						</span>
 					</div>
