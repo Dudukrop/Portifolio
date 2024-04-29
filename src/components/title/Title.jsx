@@ -1,17 +1,12 @@
 import TypingAnimation from "../animations/TypingAnimation";
-import BounceAnimation from "../animations/BounceAnimation";
 
 export default function Title(props) {
 
     return (
         <h1 className="text-[9vw] md:text-[4.3vw] font-bold">
             {
-                props.animation == "bounce"
+                props.animation
                     ?
-                    <BounceAnimation className="text-[9vw] md:text-[4.3vw] font-bold">
-                        {props.children}
-                    </BounceAnimation>
-                    :
                     <TypingAnimation>
                         {
                             [
@@ -22,6 +17,10 @@ export default function Title(props) {
                             ]
                         }
                     </TypingAnimation>
+                    :
+                    <>
+                        {props.children}
+                    </>
             }
         </h1>
     )

@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="flex flex-col items-center md:items-start justify-around w-full 
                 md:w-[30%] h-[300px] md:h-[400px]">
                     <div className="md:w-[45vw] mb-3 cursor-default h-[120px] md:h-[25vh]">
-                        <Title />
+                        <Title animation />
                     </div>
                     <div className="w-full md:w-[38vw]">
                         <Span>

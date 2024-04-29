@@ -12,11 +12,11 @@ export default function About() {
 					</div>
 				</div>
 				<div className="h-[450px] relative bottom-5 md:bottom-2 md:h-[420px] mt-5 md:mt-0 flex flex-col justify-between md:w-[600px] w-[90vw] z-50">
-					<div className="h-[120px] relative top-5 md:top-0 md:h-[27vh] md:w-[38vw]">
-						<Title animation="bounce">
+					<div className="h-[120px] relative top-3 md:top-0 md:h-[27vh] md:w-[38vw]">
+						<Title>
 							Olá, Eu Sou
 						</Title>
-						<Title animation="bounce">
+						<Title>
 							Eduardo Kropniczki
 						</Title>
 					</div>
@@ -25,12 +25,12 @@ export default function About() {
 							Desenvolvedor Full Stack / Freelancer / Web
 						</span>
 					</div>
-					<div>
+					<div className="mt-4">
 						<Span>
 							Entusiasta da programação, mergulhado na jornada do aprendizado constante.
 						</Span>
 					</div>
-					<div>
+					<div className="my-4">
 						<Span>
 							Sempre pronto para liderar e compartilhar conhecimento. Amante de academia e atividades ao ar livre, perfeccionista quando se trata de programação.
 						</Span>
