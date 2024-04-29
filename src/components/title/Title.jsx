@@ -4,7 +4,7 @@ import BounceAnimation from "../animations/BounceAnimation";
 export default function Title(props) {
 
     return (
-        <div className="text-[9vw] md:text-[4.3vw] font-bold">
+        <h1 className="text-[9vw] md:text-[4.3vw] font-bold">
             {
                 props.animation == "bounce"
                     ?
@@ -23,6 +23,6 @@ export default function Title(props) {
                         }
                     </TypingAnimation>
             }
-        </div>
+        </h1>
     )
 }

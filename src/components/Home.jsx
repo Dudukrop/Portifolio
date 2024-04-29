@@ -8,9 +8,9 @@ export default function Home() {
     return (
         <div id="Home" className="scrollAlign2 w-full flex items-center h-screen">
             <div className="flex flex-col-reverse md:flex-row items-center 
-            m-auto relative bottom-[4vh] md:top-8 w-[92%] md:w-[98%] justify-center">
+            m-auto relative h-[680px] md:h-auto bottom-[4vh] md:top-8 w-[92%] md:w-[98%] justify-center md:justify-around">
                 <div className="flex flex-col items-center md:items-start justify-around w-full 
-                md:w-[30%] md:mr-40 h-[300px] md:h-[400px]">
+                md:w-[30%] h-[300px] md:h-[400px]">
                     <div className="md:w-[45vw] mb-3 cursor-default h-[120px] md:h-[25vh]">
                         <Title />
                     </div>
@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="md:w-[500px] w-[90vw] z-50">
-                    <img src="dektup.svg" className="w-[90vw] md:w-[50vw]" />
+                    <img src="desktup-galego.svg" className="w-[90vw] md:w-[50vw]" />
                 </div>
             </div>
         </div>
