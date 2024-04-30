@@ -7,8 +7,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export default function Home() {
     return (
         <div id="Home" className="scrollAlign2 w-full flex items-center h-screen">
-            <div className="flex flex-col-reverse md:flex-row items-center 
-            m-auto relative h-[680px] md:h-auto bottom-[4vh] md:top-8 w-[92%] md:w-[98%] justify-center md:justify-around">
+            <div className="flex flex-col-reverse md:flex-row items-center
+            m-auto relative h-[680px] md:h-auto w-[92%] md:w-[98%] justify-center md:justify-around">
                 <div className="flex flex-col items-center md:items-start justify-around w-full 
                 md:w-[30%] h-[300px] md:h-[400px]">
                     <div className="md:w-[45vw] mb-3 cursor-default h-[120px] md:h-[25vh]">

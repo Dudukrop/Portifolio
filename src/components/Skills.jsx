@@ -5,7 +5,7 @@ export default function Skills() {
 	return (
 		<div id="Skills" className="scrollAlign2 w-full flex items-center h-screen">
 			<div className="flex flex-col items-center
-            m-auto relative h-[770px] md:h-[470px] md:top-2 w-[92%] md:w-[70%] justify-start md:justify-between">
+            m-auto relative h-[710px] md:h-[470px] md:top-2 w-[92%] md:w-[70%] justify-start md:justify-between">
 				<div className="flex flex-col items-start md:items-center relative md:bottom-5">
 					<div>
 						<Title>
