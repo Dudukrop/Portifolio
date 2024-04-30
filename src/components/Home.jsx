@@ -37,7 +37,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="md:w-[500px] w-[90vw] z-50">
-                    <img src="desktup-galego.svg" className="w-[90vw] md:w-[50vw]" />
+                    <img src="dektup.svg" className="w-[90vw] md:w-[50vw]" />
                 </div>
             </div>
         </div>
