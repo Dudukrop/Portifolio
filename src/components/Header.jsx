@@ -9,9 +9,11 @@ export default function Header() {
                 DUDUKROP
             </a>
             <div className='relative top-1'>
-                <Button>
-                    Contato
-                </Button>
+                <a href="#Contato">
+                    <Button>
+                        Contato
+                    </Button>
+                </a>
             </div>
         </header>
     )

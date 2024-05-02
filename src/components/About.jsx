@@ -3,7 +3,7 @@ import Title from "./title/Title";
 
 export default function About() {
 	return (
-		<div id="about" className="scrollAlign w-full flex items-center h-screen">
+		<div id="about" className="scrollAlign w-full flex items-center my-2  h-screen">
 			<div className="flex flex-col md:flex-row items-center 
             m-auto relative h-[680px] md:h-auto bottom-[2vh] md:top-8 w-[92%] md:w-[98%] justify-center md:justify-around">
 				<div>

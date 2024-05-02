@@ -5,6 +5,8 @@ import Home from "@/components/Home";
 import About from "@/components/About";
 import { useScroll, useTransform } from "framer-motion";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Contato from "@/components/Contato";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +21,8 @@ export default function index() {
       <Home />
       <About />
       <Skills />
+      <Projects />
+      <Contato />
     </main>
   );
 }

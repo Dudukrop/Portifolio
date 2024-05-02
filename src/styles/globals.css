@@ -4,10 +4,12 @@
 
 
 @media (min-width: 768px) {
+  html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
 }
-
 html {
-  scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar{
@@ -226,7 +228,7 @@ body {
 #stars::after {
   content: '';
   position: absolute;
-  top: 1500px;
+  top: 2000px;
   width: 1px;
   height: 1px;
   background: transparent;
@@ -470,7 +472,7 @@ body {
 #stars2:after {
   content: '';
   position: absolute;
-  top: 1500px;
+  top: 2000px;
   width: 2px;
   height: 2px;
   background: transparent; 
@@ -563,7 +565,7 @@ body {
 #stars3::after {
   content: '';
   position: absolute;
-  top: 1500px;
+  top: 2000px;
   width: 3px;
   height: 3px;
   background: transparent; 

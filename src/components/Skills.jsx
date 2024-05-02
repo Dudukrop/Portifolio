@@ -3,7 +3,7 @@ import Title from "./title/Title";
 
 export default function Skills() {
 	return (
-		<div id="Skills" className="scrollAlign2 w-full flex items-center h-screen">
+		<div id="Skills" className="scrollAlign2 w-full flex items-center my-2 h-screen">
 			<div className="flex flex-col items-center
             m-auto relative h-[710px] md:h-[470px] md:top-2 w-[92%] md:w-[70%] justify-start md:justify-between">
 				<div className="flex flex-col items-start md:items-center relative md:bottom-5">
@@ -14,7 +14,7 @@ export default function Skills() {
 					</div>
 					<div className="w-[90%] md:text-center md:mt-0 mt-2 flex flex-col">
 						<Span>
-							HTML, CSS, JS, building small and medium web applications with Vue or React, custom plugins, features, animations, and coding interactive layouts. I have also full-stack developer experience with one of the most popular open source CMS on the web - WordPress.
+							Back-end com C#, construindo aplicações API e Web utilizando Clean Architecture e Microsserviços. No front-end, utilizo HTML, CSS e JavaScript para criar interfaces web com React. Busco melhorar continuamente a performance e segurança dos sistemas, utilizando Azure para desenvolvimento em nuvem.
 						</Span>
 						<div className="mt-3">
 							<Span>
