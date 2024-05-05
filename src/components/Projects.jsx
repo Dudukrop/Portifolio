@@ -17,7 +17,7 @@ export default function Projects() {
 						Eu construí diversos projetos para atender diferentes aspectos do negócio do cliente. Se você deseja ver mais exemplos do meu trabalho além dos apresentados neste site, por favor, visite meu <a
 							className="text-[#9c27b0]"
 							target="blank" href="https://github.com/Dudukrop">
-							GitHub</a>!
+							GitHub!</a>
 					</Span>
 				</div>
 				<div>
@@ -25,6 +25,7 @@ export default function Projects() {
 						Ver Projetos
 					</Link>
 				</div>
+
 			</div>
 		</div>
 	)

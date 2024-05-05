@@ -14,7 +14,7 @@ export default function Skills() {
 					</div>
 					<div className="w-[90%] md:text-center md:mt-0 mt-2 flex flex-col">
 						<Span>
-							Back-end com C#, construindo aplicações API e Web utilizando Clean Architecture e Microsserviços. No front-end, utilizo HTML, CSS e JavaScript para criar interfaces web com React. Busco melhorar continuamente a performance e segurança dos sistemas, utilizando Azure para desenvolvimento em nuvem.
+							Back-end com C#, construindo aplicações API e Web utilizando arquiteturas sólidas. No front-end, utilizo HTML, CSS e JavaScript para criar interfaces web com React. Busco melhorar continuamente a performance e segurança dos sistemas, utilizando Azure para desenvolvimento em nuvem.
 						</Span>
 						<div className="mt-3">
 							<Span>
@@ -29,37 +29,37 @@ export default function Skills() {
 				<div className="w-full flex flex-col justify-between h-[230px] text-[40px] md:items-center md:text-[80px] md:mt-0 mt-5">
 					<div className="flex flex-wrap justify-around w-full">
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-csharp-plain"></i>
+							<i className="devicon-csharp-plain"></i>
 							<span className="text-base">
 								C#
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-dotnetcore-plain"></i>
+							<i className="devicon-dotnetcore-plain"></i>
 							<span className="text-base">
 								.Net
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-javascript-plain"></i>
+							<i className="devicon-javascript-plain"></i>
 							<span className="text-base">
 								JavaScript
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-react-original"></i>
+							<i className="devicon-react-original"></i>
 							<span className="text-base">
 								React
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-nextjs-original-wordmark"></i>
+							<i className="devicon-nextjs-original-wordmark"></i>
 							<span className="text-base">
 								Next
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-tailwindcss-original"></i>
+							<i className="devicon-tailwindcss-original"></i>
 							<span className="text-base">
 								Tailwind
 							</span>
@@ -67,49 +67,49 @@ export default function Skills() {
 					</div>
 					<div className="flex flex-wrap justify-around w-full md:w-[105%]">
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-html5-plain"></i>
+							<i className="devicon-html5-plain"></i>
 							<span className="text-base">
 								HTML5
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-css3-plain"></i>
+							<i className="devicon-css3-plain"></i>
 							<span className="text-base">
 								CSS3
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-git-plain"></i>
+							<i className="devicon-git-plain"></i>
 							<span className="text-base">
 								Git
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-mysql-original"></i>
+							<i className="devicon-mysql-original"></i>
 							<span className="text-base">
 								MySQL
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-microsoftsqlserver-plain"></i>
+							<i className="devicon-microsoftsqlserver-plain"></i>
 							<span className="text-base">
 								SQLServer
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-azure-plain"></i>
+							<i className="devicon-azure-plain"></i>
 							<span className="text-base">
 								Azure
 							</span>
 						</div>
 						<div className="flex flex-col text-nowrap justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-visualstudio-plain"></i>
+							<i className="devicon-visualstudio-plain"></i>
 							<span className="text-base">
 								Visual Studio
 							</span>
 						</div>
 						<div className="flex flex-col justify-center items-center md:w-auto md:p-0 w-1/3 p-4">
-							<i class="devicon-vscode-plain"></i>
+							<i className="devicon-vscode-plain"></i>
 							<span className="text-base">
 								VS Code
 							</span>
